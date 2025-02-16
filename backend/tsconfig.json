@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                               /* Emit code for ES2016 (or later) */
+    "module": "commonjs",                             /* Use CommonJS module system */
+    "esModuleInterop": true,                          /* Allow import of CommonJS modules */
+    "forceConsistentCasingInFileNames": true,         /* Ensure consistent file name casing */
+    "outDir": "./dist",                               /* Output compiled JS files to dist folder */
+    "sourceMap": true,                                /* Generate source maps for debugging */
+    "removeComments": true,                           /* Remove comments from output */
+    "strict": true,                                   /* Enable strict type checking */
+    "skipLibCheck": true                              /* Skip type checking of library files */
+  },
+  "include": [
+    "src/**/*.ts"                                     /* Include all TS files under src folder */
+  ]
+}
